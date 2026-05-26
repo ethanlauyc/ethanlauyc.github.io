@@ -1,0 +1,36 @@
+# Ruby and Jekyll
+.ruby-version
+.ruby-gemset
+Gemfile.lock
+vendor/
+
+# Bundler
+/.bundle/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build output
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Environment
+.env
+.env.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Node (if using node tools)
+node_modules/
+package-lock.json

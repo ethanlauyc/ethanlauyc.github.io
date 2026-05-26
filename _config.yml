@@ -1,0 +1,28 @@
+# Jekyll Configuration for GitHub Pages
+# Theme
+theme: jekyll-theme-minimal
+
+# Site settings
+title: Your Portfolio
+description: A professional portfolio showcasing projects and skills
+url: "https://yourusername.github.io"
+baseurl: "/your-repo-name"
+
+# Author info
+author: Your Name
+email: your.email@example.com
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files
+exclude:
+  - .gitignore
+  - .github
+  - node_modules
